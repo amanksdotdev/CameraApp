@@ -81,11 +81,11 @@ function viewMedia() {
                 imgContainer.appendChild(img);
 
                 let deleteBtn = document.createElement("button");
-                deleteBtn.classList.add("gallery-delete-button");
+                deleteBtn.classList.add("gallery-delete-btn");
                 deleteBtn.innerText = "Delete";
 
                 let downloadBtn = document.createElement("button");
-                downloadBtn.classList.add("gallery-download-button");
+                downloadBtn.classList.add("gallery-download-btn");
                 downloadBtn.innerText = "Download";
 
                 imgContainer.appendChild(deleteBtn);
@@ -113,3 +113,9 @@ function viewMedia() {
         }
     };
 }
+
+
+
+// location.assign(url) --> instead of <a/> we could use this to change active location using javascript
+
+
