@@ -1,5 +1,5 @@
 # CameraApp
 
-A camera app with picture click and video recording feature.
+A camera app with image capture, video recording and filter feature.
 
 Try here [CameraApp](https://mraman007.github.io/CameraApp/)
